@@ -1,0 +1,459 @@
+/* BLOCO DE QUEM SOU EU */
+.who-am-i {
+    width: 100%;
+    display: block;
+    background-image: url('../../images/fundo-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.who-am-i .content {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.who-am-i .content .img {
+    width: 54%;
+}
+
+.who-am-i .content .img img {
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.who-am-i .content .text {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.who-am-i .content .text h2 {
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.who-am-i .content .text h2::after {
+    width: 150px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: ' ';
+}
+
+.who-am-i .content .description {
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+
+.who-am-i .content .description p {
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+    .who-am-i .content .img {
+        width: 54%;
+    }
+
+    .who-am-i .content .text {
+        width: 45%;
+        margin: 0 0 0 -60px;
+    }
+}
+
+
+/* BLOCO DE EVENTOS */
+.events {
+    background-color: #fff;
+    padding: 115px 0px;
+    width: 100%;
+    display: block;
+}
+
+.events .content {
+    width: 100%;
+    display: block;
+}
+
+.events .content .items {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+
+.events .content .items .item {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.events .content .items .item:last-child {
+    margin-bottom: 0px;
+}
+
+.events .content .items .item .img {
+    width: 100%;
+}
+
+.events .content .items .item .img img {
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.events .content .items .item .text {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.events .content .text h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 45px;
+    color: #000;
+    position: relative;
+}
+
+.events .content .text h3::after {
+    width: 150px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: ' ';
+}
+
+.events .content .description {
+    width: 100%;
+    display: block;
+}
+
+.events .content .description p {
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    color: #000;
+}
+
+@media only screen and (min-width: 1024px) {
+    .events .content .items .item .img {
+        width: 54%;
+    }
+
+    .events .content .items .item .text {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .events .content .items .item:nth-child(2n+2) .img {
+        order: 0;
+    }
+
+    .events .content .items .item:nth-child(2n+2) .text {
+        order: 1;
+    }
+}
+
+/* NOSSOS CURSOS */
+
+.courses {
+    width: 100%;
+    display: block;
+    background-image: url('../../images/fundo-cursos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px 70px 0;
+}
+
+.courses .content .items {
+    margin-top: 70px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.courses .content .items .item {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.courses .content .items .item .img {
+    width: 100%;
+    display: block;
+}
+
+.courses .content .items .item .img img {
+    width: 100%;
+    display: block;
+}
+
+.courses .content .items .item .title {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .courses .content .items .item {
+        width: 48%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .courses .content .items .item {
+        width: 24%;
+    }
+}
+
+/* VIDEOS */
+
+.videos {
+    background-color: #fff;
+    padding: 115px 0px;
+    width: 100%;
+    display: block;
+}
+
+.videos .content {
+    width: 100%;
+    display: block;
+}
+
+.videos .content .items {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+
+.videos .content .items .item {
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+}
+
+.videos .content .items .item .img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.videos .content .items .item .img img {
+    width: 100%;
+    display: block;
+}
+
+.videos .content .items .item .title {
+    width: 100%;
+    display: block;
+    color: #000;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.videos .content .items .item .img i {
+    font-size: 70px;
+    position: absolute;
+    color: red;
+    z-index: 1;
+}
+.videos .content .items .item .img i::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    content: " ";
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    z-index: -1;
+}
+
+.videos .content .button {
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+}
+
+.videos .content .button .btn {
+    width: max-content;
+    border-color: #000;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+.videos .content .button .btn:hover {
+    border-color: #000;
+    color: #fff;
+    background-color: #000;
+}
+
+/* CONTATOS */
+.contacts{
+    width: 100%;
+    display: block;
+    padding: 90px 0px;
+    background-image: url('../../images/fundo-contatos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.contacts .content{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.contacts .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #000;
+    position: relative;
+}
+
+.contacts .content h2::after {
+    width: 150px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: ' ';
+}
+
+.contacts .content form{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.contacts .content form input{
+    width: 100%;
+    display: block;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    color: #fff;
+    border-color: 1px solid #fff;
+    border-radius: 50px;
+    padding: 0px 20px;
+}
+.contacts .content form input textarea{
+    width: 100%;
+    display: block;
+    height: 180px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    color: #fff;
+    border-color: 1px solid #fff;
+    border-radius: 25px;
+    padding: 15px 20px;
+}
+.contacts .content form button{
+    /* width: max-content;
+    display: block;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border-color: 1px solid #fff;
+    border-radius: 50px;
+    padding: 0px 50px; */
+    margin: 0 0 0 auto;
+}
+.contacts .content .contact{
+    width: 100%;
+    display: block;
+}
+.contacts .content .form{
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+.contacts .content .contact h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.contacts .content .contact a{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contacts .content .contact a i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.contacts .content .contact .social-medias{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts .content .contact .social-medias a{
+    margin: 0 15px 0 0;
+    width: max-content;
+}
+.contacts .content .contact .social-medias a i {
+    margin-right: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts .content .form form input{
+        width: 49%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacts .content .form{
+        width: 64%;
+        margin-bottom: 0px;
+    }
+    .contacts .content .contact{
+        width: 24%;
+    }
+}
